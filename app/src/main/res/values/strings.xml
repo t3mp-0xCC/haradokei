@@ -4,5 +4,8 @@
     <string name="notification_channel_name">おなか通知</string>
     <string name="notification_channel_description">空腹になりそうな時間をお知らせします</string>
     <string name="notification_title">そろそろ、おなかが空くころです</string>
-    <string name="notification_text">無理をせず、食事の時間を考えてみませんか？</string>
+    <string name="notification_recheck_title">今のおなかの具合はどうですか？</string>
+    <string name="notification_feedback_text">「もう空腹・ちょうどいい・まだ」で予測が育ちます</string>
+    <string name="hunger_context_default">実際に空腹を感じた時刻が、予測精度を大きく改善します。</string>
+    <string name="hunger_context_pending">通知後の感覚を0〜10で教えてください。6以上で空腹時刻として学習します。</string>
 </resources>

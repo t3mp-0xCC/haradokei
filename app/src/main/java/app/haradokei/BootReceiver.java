@@ -10,7 +10,8 @@ public final class BootReceiver extends BroadcastReceiver {
         if (!Intent.ACTION_BOOT_COMPLETED.equals(intent.getAction())) return;
         long alarmAt = MealStore.alarmAt(context);
         if (alarmAt > System.currentTimeMillis()) {
-            AlarmScheduler.schedule(context, alarmAt);
+            AlarmScheduler.schedule(context, alarmAt, MealStore.alarmMealAt(context),
+                    MealStore.alarmCheckCount(context));
         }
     }
 }
