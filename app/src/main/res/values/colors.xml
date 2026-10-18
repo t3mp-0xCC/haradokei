@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cream">#FFF9F0</color>
+    <color name="ink">#302A24</color>
+    <color name="muted">#756A60</color>
+    <color name="orange">#E86F3A</color>
+    <color name="orange_dark">#C94F22</color>
+    <color name="peach">#FFE2D1</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

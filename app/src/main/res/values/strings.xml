@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">haradokei</string>
+    <string name="notification_channel_name">おなか通知</string>
+    <string name="notification_channel_description">空腹になりそうな時間をお知らせします</string>
+    <string name="notification_title">そろそろ、おなかが空くころです</string>
+    <string name="notification_text">無理をせず、食事の時間を考えてみませんか？</string>
+</resources>
